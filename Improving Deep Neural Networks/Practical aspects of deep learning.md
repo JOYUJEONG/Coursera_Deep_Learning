@@ -1,7 +1,7 @@
-### Week 1 Quiz - Practical aspects of deep learning
+## Week 1 Quiz - Practical aspects of deep learning
 
 
-1. If you have 10,000,000 examples, how would you split the train/dev/test set?
+### 1.If you have 10,000,000 examples, how would you split the train/dev/test set?
 
 
 - [ ] 33% train . 33% dev . 33% test
@@ -9,8 +9,7 @@
 - [x] 98% train . 1% dev . 1% test
 
 
-2. The dev and test set should:
-
+### 2.The dev and test set should:
 
 Come from the same distribution
 Come from different distributions
@@ -18,7 +17,7 @@ Be identical to each other (same (x,y) pairs)
 Have the same number of examples
 
 
-3. If your Neural Network model seems to have high bias, what of the following would be promising things to try? (Check all that apply.)
+3.If your Neural Network model seems to have high bias, what of the following would be promising things to try? (Check all that apply.)
 
 
 Make the Neural Network deeper
