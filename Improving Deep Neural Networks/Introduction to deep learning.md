@@ -1,2 +1,3 @@
- [x] [checkbox:unchecked]
+ #[x] 
+ #[checkbox:unchecked]
  [checkbox:checked]
