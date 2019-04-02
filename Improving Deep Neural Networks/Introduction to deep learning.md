@@ -1,0 +1,2 @@
+ [checkbox:unchecked]
+ [checkbox:checked]
