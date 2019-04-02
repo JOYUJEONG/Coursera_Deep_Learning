@@ -1,15 +1,14 @@
 ## Week 1 Quiz - Practical aspects of deep learning
 
 
-### 1.If you have 10,000,000 examples, how would you split the train/dev/test set?
-
+#### 1.If you have 10,000,000 examples, how would you split the train/dev/test set?
 
 - [ ] 33% train . 33% dev . 33% test
 - [ ] 60% train . 20% dev . 20% test
 - [x] 98% train . 1% dev . 1% test
 
 
-### 2.The dev and test set should:
+#### 2.The dev and test set should:
 
 - [x] Come from the same distribution
 - [ ] Come from different distributions
