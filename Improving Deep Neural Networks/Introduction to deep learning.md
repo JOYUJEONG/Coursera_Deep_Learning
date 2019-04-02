@@ -1,3 +1,3 @@
- -[x] 
+ - [x] 
  -[checkbox:unchecked]
  [checkbox:checked]
