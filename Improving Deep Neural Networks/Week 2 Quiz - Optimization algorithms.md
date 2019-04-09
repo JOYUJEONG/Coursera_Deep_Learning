@@ -1,4 +1,4 @@
-## Week 1 Quiz - Practical aspects of deep learning
+## Week 1 Quiz - Optimization algorithms
 
 
 #### 1.Which notation would you use to denote the 3rd layer’s activations when the input is the 7th example from the 8th minibatch?
@@ -78,4 +78,4 @@
 - [x] Adam should be used with batch gradient computations, not with mini-batches.
 - [ ] We usually use “default” values for the hyperparameters β1,β2 and ε in Adam (β1 = 0.9, β2 =0.999, ε=10<sup>−8</sup>)
 - [ ] Adam combines the advantages of RMSProp and momentum
-- [ ] The learning rate hyperparameter \alphaα in Adam usually needs to be tuned.
+- [ ] The learning rate hyperparameter α in Adam usually needs to be tuned.
