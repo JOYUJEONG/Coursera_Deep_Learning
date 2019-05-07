@@ -1,7 +1,7 @@
 ## Week 2 Quiz - Autonomous driving (case study)
 
 
-#### 1.To help you practice strategies for machine learning, in this week we’ll present another scenario and ask how you would act. We think this “simulator” of working in a machine learning project will give a task of what leading a machine learning project could be like!
+#### 1. To help you practice strategies for machine learning, in this week we’ll present another scenario and ask how you would act. We think this “simulator” of working in a machine learning project will give a task of what leading a machine learning project could be like!
 
 - [ ] Spend a few days checking what is human-level performance for these tasks so that you can get an accurate estimate of Bayes error.
 - [x] Spend a few days training a basic model and see what mistakes it makes.
@@ -9,7 +9,7 @@
 - [ ] Spend a few days collecting more data using the front-facing camera of your car, to better understand how much data per unit time you can collect.
 
 
-#### 2.Your goal is to detect road signs (stop sign, pedestrian crossing sign, construction ahead sign) and traffic signals (red and green lights) in images. The goal is to recognize which of these objects appear in each image. You plan to use a deep neural network with ReLU units in the hidden layers.
+#### 2. Your goal is to detect road signs (stop sign, pedestrian crossing sign, construction ahead sign) and traffic signals (red and green lights) in images. The goal is to recognize which of these objects appear in each image. You plan to use a deep neural network with ReLU units in the hidden layers.
 
 - [ ] True
 - [x] False
