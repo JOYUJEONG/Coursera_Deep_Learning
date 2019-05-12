@@ -27,7 +27,7 @@
 
 
 
-- [ ] ```bash
+- [ ] ```python
       r = np.random.rand()
       beta = r*0.09 + 0.9 
       ```
