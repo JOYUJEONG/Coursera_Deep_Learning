@@ -7,10 +7,12 @@
 - [x] False
 
 
+
 #### 2. Every hyperparameter, if set poorly, can have a huge negative impact on training, and so all hyperparameters are about equally important to tune well. True or False?
 
 - [ ] True
 - [x] False
+
 
 
 #### 3. During hyperparameter search, whether you try to babysit one model (“Panda” strategy) or train a lot of models in parallel (“Caviar”) is largely determined by:
@@ -20,24 +22,32 @@
 - [ ] The number of hyperparameters you have to tune
 
 
+
 #### 4. If you think β (hyperparameter for momentum) is between on 0.9 and 0.99, which of the following is the recommended way to sample a value for beta?
 
 
 
 - [ ] ``` 
-      r = np.random.rand()  
+      r = np.random.rand()
+      
       beta = r*0.09 + 0.9 
       ```
 - [x] ``` 
       r = np.random.rand()  
+      
+      
       beta = 1-10**(- r - 1)
       ```
 - [ ] ``` 
       r = np.random.rand()  
+      
+      
       beta = 1-10**(- r + 1) 
       ```
 - [ ] ``` 
       r = np.random.rand()  
+      
+      
       beta = r*0.9 + 0.09 
       ```
 
@@ -47,6 +57,7 @@
 
 - [ ] True
 - [x] False
+
 
 
 
@@ -60,6 +71,7 @@
  
 
 
+
 #### 7. In the normalization formula  z<sub>norm</sub><sup>(i)</sup>=  z<sup>(i)</sup>-μ/σ<sup>2</sup>+ε√, why do we use epsilon?
 
 
@@ -67,6 +79,7 @@
 - [ ] To speed up convergence
 - [x] To avoid division by zero
 - [ ] In case μ is too small
+
 
 
 
@@ -79,12 +92,16 @@
 - [x] They set the mean and variance of the linear variable z<sup>[l]</sup> of a given layer.
 
 
+
+
 #### 9. After training a neural network with Batch Norm, at test time, to evaluate the neural network on a new example you should:
 
 - [x] Perform the needed normalizations, use μ and σ<sup>2</sup> estimated using an exponentially weighted average across mini-batches seen during training.
 - [ ] Use the most recent mini-batch’s value of μ and σ<sup>2</sup> to perform the needed normalizations.
 - [ ] If you implemented Batch Norm on mini-batches of (say) 256 examples, then to evaluate on one test example, duplicate that example 256 times so that you’re working with a mini-batch the same size as during training.
 - [ ] Skip the step where you normalize using μ and σ<sup>2</sup> since a single test example cannot be normalized.
+
+
 
 
 #### 10. Which of these statements about deep learning programming frameworks are true? (Check all that apply)
