@@ -57,7 +57,7 @@
 #### 6. In batch normalization as presented in the videos, if you apply it on the llth layer of your neural network, what are you normalizing?
 
 
-- [ ] a<sup>[l]/=</sup>
+- [ ] a<sup>[l]</sup>
 - [ ] b<sup>[l]</sup>
 - [x] z<sup>[l]</sup>
 - [ ] W<sup>[l]</sup>
