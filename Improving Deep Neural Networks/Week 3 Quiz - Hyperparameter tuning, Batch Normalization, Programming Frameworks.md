@@ -24,14 +24,22 @@
 
 
 
-- [ ] ''' r = np.random.rand()
-         beta = r*0.09 + 0.9 '''
-- [x] ''' r = np.random.rand()
-         beta = 1-10**(- r - 1) '''
-- [ ] ''' r = np.random.rand()
-         beta = 1-10**(- r + 1) '''
-- [ ] ''' r = np.random.rand()
-         beta = r*0.9 + 0.09 '''
+- [ ] ``` 
+      r = np.random.rand()
+      beta = r*0.09 + 0.9 
+      ```
+- [x] ``` 
+      r = np.random.rand()
+      beta = 1-10**(- r - 1)
+      ```
+- [ ] ``` 
+      r = np.random.rand()
+      beta = 1-10**(- r + 1) 
+      ```
+- [ ] ``` 
+      r = np.random.rand()
+      beta = r*0.9 + 0.09 
+      ```
 
 
 
