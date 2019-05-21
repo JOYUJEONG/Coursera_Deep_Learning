@@ -3,18 +3,18 @@
 
 #### 1. Which of the following do you typically see as you move to deeper layers in a ConvNet?
 
-- [ ] n<sub>H</sub> and n<sub>W</sub> decreases, while n<sub>C</sub> increases
+- [x] n<sub>H</sub> and n<sub>W</sub> decreases, while n<sub>C</sub> increases
 - [ ] n<sub>H</sub> and n<sub>W</sub> increases, while n<sub>C</sub> increases
-- [x] n<sub>H</sub> and n<sub>W</sub> increases, while n<sub>C</sub> decreases
+- [ ] n<sub>H</sub> and n<sub>W</sub> increases, while n<sub>C</sub> decreases
 - [ ] n<sub>H</sub> and n<sub>W</sub> decrease, while n<sub>C</sub> decreases
 
 
 #### 2. Which of the following do you typically see in a ConvNet? (Check all that apply.)
 
 
-- [ ] Multiple CONV layers followed by a POOL layer
+- [x] Multiple CONV layers followed by a POOL layer
 - [ ] Multiple POOL layers followed by a CONV layer
-- [ ] FC layers in the last few layers
+- [x] FC layers in the last few layers
 - [ ] FC layers in the first few layers
 
 
@@ -45,10 +45,10 @@
 
 #### 6. Which ones of the following statements on Residual Networks are true? (Check all that apply.)
 
-- [ ] The skip-connections compute a complex non-linear function of the input to pass to a deeper layer in the network.
+- [x] The skip-connections compute a complex non-linear function of the input to pass to a deeper layer in the network.
 - [ ] A ResNet with L layers would have on the order of L<sup>2</sup> skip connections in total.
-- [x] The skip-connection makes it easy for the network to learn an identity mapping between the input and the output within the ResNet block.
-- [ ] Using a skip-connection helps the gradient to backpropagate and thus helps you to train deeper networks
+- [ ] The skip-connection makes it easy for the network to learn an identity mapping between the input and the output within the ResNet block.
+- [x] Using a skip-connection helps the gradient to backpropagate and thus helps you to train deeper networks
 
 
 
@@ -58,22 +58,22 @@
 - [ ] 4097
 - [ ] 2
 - [ ] 1
-- [ ] 17
+- [x] 17
 
- n<sub>H</sub> and n<sub>W</sub> decreases, while n<sub>C</sub> increases
+
 #### 8. Suppose you have an input volume of dimension n<sub>H</sub> x n<sub>W</sub> x n<sub>C</sub>. Which of the following statements you agree with? (Assume that “1x1 convolutional layer” below always uses a stride of 1 and no padding.)
 
-- [ ] You can use a pooling layer to reduce n<sub>H</sub>, n<sub>W</sub>, but not n<sub>C</sub>.
-- [x] You can use a pooling layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
-- [x] You can use a 1x1 convolutional layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
+- [x] You can use a pooling layer to reduce n<sub>H</sub>, n<sub>W</sub>, but not n<sub>C</sub>.
+- [] You can use a pooling layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
+- [ ] You can use a 1x1 convolutional layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
 - [x] You can use a 1x1 convolutional layer to reduce n<sub>C</sub>>, but not n<sub>H</sub>, n<sub>W</sub
 
 
 
 #### 9. Which ones of the following statements on Inception Networks are true? (Check all that apply.)
 
-- [x] Inception networks incorporates a variety of network architectures (similar to dropout, which randomly chooses a network architecture on each step) and thus has a similar regularizing effect as dropout.
-- [ ] A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling.
+- [ ] Inception networks incorporates a variety of network architectures (similar to dropout, which randomly chooses a network architecture on each step) and thus has a similar regularizing effect as dropout.
+- [x] A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling.
 - [ ] Making an inception network deeper (by stacking more inception blocks together) should not hurt training set performance.
 - [x] Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.
 
@@ -81,8 +81,8 @@
 
 #### 10. Which of the following are common reasons for using open-source implementations of ConvNets (both the model and/or weights)? Check all that apply.
 
-- [ ] It is a convenient way to get working an implementation of a complex ConvNet architecture.
-- [ ] Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
+- [x] It is a convenient way to get working an implementation of a complex ConvNet architecture.
+- [x] Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
 - [ ] The same techniques for winning computer vision competitions, such as using multiple crops at test time, are widely used in practical deployments (or production system deployments) of ConvNets.
 - [ ] A model trained for one computer vision task can usually be used to perform data augmentation even for a different computer vision task.
 
