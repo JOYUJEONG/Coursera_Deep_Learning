@@ -64,9 +64,9 @@
 #### 8. Suppose you have an input volume of dimension n<sub>H</sub> x n<sub>W</sub> x n<sub>C</sub>. Which of the following statements you agree with? (Assume that “1x1 convolutional layer” below always uses a stride of 1 and no padding.)
 
 - [x] You can use a pooling layer to reduce n<sub>H</sub>, n<sub>W</sub>, but not n<sub>C</sub>.
-- [] You can use a pooling layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
+- [ ] You can use a pooling layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
 - [ ] You can use a 1x1 convolutional layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
-- [x] You can use a 1x1 convolutional layer to reduce n<sub>C</sub>>, but not n<sub>H</sub>, n<sub>W</sub
+- [x] You can use a 1x1 convolutional layer to reduce n<sub>C</sub>>, but not n<sub>H</sub>, n<sub>W</sub>.
 
 
 
