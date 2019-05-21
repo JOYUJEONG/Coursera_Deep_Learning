@@ -66,7 +66,7 @@
 - [x] You can use a pooling layer to reduce n<sub>H</sub>, n<sub>W</sub>, but not n<sub>C</sub>.
 - [ ] You can use a pooling layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
 - [ ] You can use a 1x1 convolutional layer to reduce  n<sub>H</sub>, n<sub>W</sub>, and n<sub>C</sub>.
-- [x] You can use a 1x1 convolutional layer to reduce n<sub>C</sub>>, but not n<sub>H</sub>, n<sub>W</sub>.
+- [x] You can use a 1x1 convolutional layer to reduce n<sub>C</sub>, but not n<sub>H</sub>, n<sub>W</sub>.
 
 
 
